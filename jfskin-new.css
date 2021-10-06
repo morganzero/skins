@@ -1,0 +1,74 @@
+/* 1. Recommended */
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/fixes.css');
+
+/* 2. Required */
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/base.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/accentlist.css');
+
+/* 3. Rounding */
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/rounding.css');
+
+/* 4. Smaller cast list */
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/smallercast.css');
+
+/* 5. Compact episode list */
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/episodelist/episodes_grid.css');
+
+/* 6. Transparent top bar */
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/header/header_transparent-dashboard.css');
+
+/* 7. Login screen */
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/login/login_frame.css');
+
+/* 8. Input fields */
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/fields/fields_border.css');
+
+/* 9. Watched/Unwatched indicators */
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/cornerindicator/indicator_floating.css');
+
+/* 10. Choose type */
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/type/dark.css');
+
+/* 11. Title page */
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/titlepage/title_simple-logo.css');
+
+/* 12. Progress bar */
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/progress/floating.css');
+
+/* 13. Effects */
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/effects/hoverglow.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/effects/glassy.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/effects/pan-animation.css');
+@import url('https://ctalvio.github.io/Monochromic/backdrop-hack_style.css');
+
+/* Style backdrop */
+.backdropImage {filter: blur(18px) saturate(120%) contrast(120%) brightness(40%);}
+
+/* Accent and roundingd */
+:root {--accent: 98, 121, 205;}
+:root {--rounding: 12px;}
+
+/* My Customization */
+.adminDrawerLogo img {
+content: url(https://sites.google.com/a/imbrium.tv/imbrium/files/movio_logo_side_by_side_white_small.png) !important;
+}
+imgLogoIcon {
+content: url(https://sites.google.com/a/imbrium.tv/imbrium/files/movio_logo_side_by_side_white_small.png) !important;
+}
+.pageTitleWithLogo {
+background-image: url(https://sites.google.com/a/imbrium.tv/imbrium/files/movio_logo_side_by_side_white_small.png) !important;
+}
+#loginPage {
+background: url(https://sites.google.com/a/imbrium.tv/imbrium/files/movio_login_bg.png) !important;
+background-size: cover !important;
+}
+
+/* Homepage Backdrop */
+.backdropImage { display: none; }
+
+.backgroundContainer {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("(https://sites.google.com/a/imbrium.tv/imbrium/files/movio_login_bg.png");
+  filter: blur(18px);
+  background-size: cover;
+}
