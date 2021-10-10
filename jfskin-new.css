@@ -27,7 +27,7 @@
 @import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/cornerindicator/indicator_floating.css');
 
 /* 10. Choose type */
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/type/dark.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/type/colorful.css');
 
 /* 11. Title page */
 @import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/titlepage/title_simple-logo.css');
@@ -41,34 +41,33 @@
 @import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/effects/pan-animation.css');
 @import url('https://ctalvio.github.io/Monochromic/backdrop-hack_style.css');
 
-/* Style backdrop */
+/*Style backdrop*/
 .backdropImage {filter: blur(18px) saturate(120%) contrast(120%) brightness(40%);}
 
-/* Accent and roundingd */
+/*Accent and roundingd*/
 :root {--accent: 98, 121, 205;}
 :root {--rounding: 12px;}
 
-/* My Customization */
+/*My Customization*/
 .adminDrawerLogo img {
-content: url(https://sites.google.com/a/imbrium.tv/imbrium/files/movio_logo_side_by_side_white_small.png) !important;
+content: url(https://sites.google.com/a/imbrium.tv/imbrium/files/movio_logo_side_by_side_white.png) !important;
 }
 imgLogoIcon {
-content: url(https://sites.google.com/a/imbrium.tv/imbrium/files/movio_logo_side_by_side_white_small.png) !important;
+content: url(https://sites.google.com/a/imbrium.tv/imbrium/files/movio_logo_side_by_side_white.png) !important;
 }
 .pageTitleWithLogo {
-background-image: url(https://sites.google.com/a/imbrium.tv/imbrium/files/movio_logo_side_by_side_white_small.png) !important;
+background-image: url(https://sites.google.com/a/imbrium.tv/imbrium/files/movio_logo_side_by_side_white.png) !important;
 }
 #loginPage {
 background: url(https://sites.google.com/a/imbrium.tv/imbrium/files/movio_login_bg.png) !important;
 background-size: cover !important;
 }
 
-/* Homepage Backdrop */
 .backdropImage { display: none; }
 
 .backgroundContainer {
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("(https://sites.google.com/a/imbrium.tv/imbrium/files/movio_login_bg.png");
+  background-image: url("https://sites.google.com/a/imbrium.tv/imbrium/files/movio_login_bg.png");
   filter: blur(18px);
   background-size: cover;
 }
